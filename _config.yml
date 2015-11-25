@@ -7,20 +7,20 @@ kramdown:
 
 # 作者信息
 author: 
-  name: 闫肃
-  email: suyan0830@gmail.com
-  link: http://yansu.org
-  weibo: http://weibo.com/yansu0711
-  github: http://github.com/suyan
+  name: 手绘
+  email: 1114287540@qq.com
+  link: http://timeisgold.github.io
+  weibo: http://weibo.com/u/2920129857
+  github: http://github.com/timeisgold
 
 # 站点信息
-title: 闫肃的博客 
-description: 闫肃的博客
-url: http://yansu.org
+title: 玉国手绘
+description: 手绘、壁画、装修、国画
+url: http://timeisgold.github.io
 rss_url: /pages/atom.xml
 
 # avatar头像及Favicon
-avatar: http://7u2ho6.com1.z0.glb.clouddn.com/site-avatar.png
+avatar: http://tp2.sinaimg.cn/2920129857/180/5735624504/1
 favicon: http://7u2ho6.com1.z0.glb.clouddn.com/site-favicon.ico
 
 # google analytics 设置
