@@ -199,7 +199,7 @@ a {
     -ms-transition: none;
     -o-transition: none;
     transition: none; }
-   
+
     .tags__li.active:before, .tags__li.active:after {
       content: "";
       width: 6px;
@@ -392,8 +392,8 @@ a {
   font-size: 18px;
   line-height: 1.5;
   background: white;
-  overflow-x: hidden;
-  overflow-y: auto;
+/*  overflow-x: hidden;
+  overflow-y: auto; */
   -webkit-overflow-scrolling: touch; }
   #post ::selection {
     color: white;
@@ -408,7 +408,8 @@ a {
       font-size: 14px; } }
 
 #pjax {
-  padding: 0 5% 30px; }
+  /** padding: 0 5% 30px; **/
+}
   #pjax.fadeIn {
     -webkit-animation: fadeIn .3s;
     -moz-animation: fadeIn .3s;

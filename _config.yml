@@ -6,7 +6,7 @@ kramdown:
   input: GFM
 
 # 作者信息
-author: 
+author:
   name: 手绘
   email: 1114287540@qq.com
   link: http://timeisgold.github.io
@@ -16,7 +16,8 @@ author:
 # 站点信息
 title: 玉国手绘
 description: 手绘、壁画、装修、国画
-url: http://timeisgold.github.io
+#url: http://timeisgold.github.io
+url: http://localhost:4000
 rss_url: /pages/atom.xml
 
 # avatar头像及Favicon

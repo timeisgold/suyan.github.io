@@ -2,51 +2,18 @@
     <a href="/index.html" id="avatar" style="background-image:url({{ site.avatar }})"></a>
     <div class="head-menu">
         <ul id="tags__ul" class="clearfix">
-          <li id="pl__all" class="tags__li tags-btn active">全部</li>
-          {% for category in site.categories %} 
+          <!--<li id="pl__all" class="tags__li tags-btn active">全部</li>
+          {% for category in site.categories %}
             <li id="{{ category[0] }}" class="tags__li tags-btn">{{ category[0] }}</li>
-          {% endfor %}
+          {% endfor %}-->
+          <li id="index" class="tags__li tags-btn active"><a href="{{ site.url }}">首页</a></li>
+          <li id="opus" class="tags__li tags-btn"><a href="{{ site.url }}/opus">作品</a></li>
+          <li id="about" class="tags__li tags-btn"><a href="{{ site.url }}/about">关于</a></li>
         </ul>
     </div>
   </div> <!-- end #tags -->
 <div class="banner">
 </div>
-<div class=="cotainer">
-      <div class="item-box clearfix">
-             <div class="item">
-              <div class="item-content">
-                <img src="../assets/img/ae0da541jw1ey3zxfc5coj216o0o04cb.jpg" alt="">
-              </div>
-             </div>
-             <div class="item">
-              <div class="item-content">
-                <img src="../assets/img/ae0da541jw1ey3zxfc5coj216o0o04cb.jpg" alt="">
-              </div>
-             </div>
-             <div class="item">
-              <div class="item-content">
-                <img src="../assets/img/ae0da541jw1ey3zxfc5coj216o0o04cb.jpg" alt="">
-              </div>
-             </div>
-      </div>
-       <div class="item-box clearfix">
-             <div class="item">
-              <div class="item-content">
-                <img src="../assets/img/ae0da541jw1ey3zxfc5coj216o0o04cb.jpg" alt="">
-              </div>
-             </div>
-             <div class="item">
-              <div class="item-content">
-                <img src="../assets/img/ae0da541jw1ey5m7ecrauj21540q0n8p.jpg" alt="">
-              </div>
-             </div>
-             <div class="item">
-              <div class="item-content">
-                <img src="../assets/img/ae0da541jw1ey5m7ecrauj21540q0n8p.jpg" alt="">
-              </div>
-             </div>
-      </div>
-</div>
-<aside id="sidebar">
- <!-- end #posts-list -->
-</aside> <!-- end #sidebar -->
+<!--
+<aside id="sidebar"></aside>
+-->
